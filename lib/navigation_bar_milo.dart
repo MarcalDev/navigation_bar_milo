@@ -108,8 +108,8 @@ class BottomNavigationItemWidget extends StatelessWidget {
       Container(        
         height: 3,       
         color: titleColor,
-      ) : SizedBox(),
-      SizedBox(height: 10),
+      ) : const SizedBox(),
+      const SizedBox(height: 10),
       icon,
       title != null ?
         Text(title!, 
@@ -117,7 +117,7 @@ class BottomNavigationItemWidget extends StatelessWidget {
           fontSize: titleSize,
           fontWeight: titleWeight,   
           color: titleColor
-        )) : SizedBox()
+        )) : const SizedBox()
     ],);
   }
 }

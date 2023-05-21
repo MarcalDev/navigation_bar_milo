@@ -32,8 +32,8 @@ class _MyAppState extends State<MyApp> {
       selectedItemIndex: tabIndex,
       selectedItemFontSize: 12,
       unselectedItemFontSize: 12,     
-      backgroundBorderRadius: BorderRadius.all( Radius.circular(12)), 
-      outsidePadding: EdgeInsets.symmetric(horizontal: 10),
+      backgroundBorderRadius: const BorderRadius.all( Radius.circular(12)), 
+      outsidePadding: const EdgeInsets.symmetric(horizontal: 10),
       floatingButtonBorderColor: Colors.white,
       floatingActionButton: SizedBox(
            height: 50,
@@ -91,6 +91,6 @@ class _MyAppState extends State<MyApp> {
           ),
         title: 'Mais',
         ),    
-    ], child: Column());
+    ], child: const Column());
   }
 }
