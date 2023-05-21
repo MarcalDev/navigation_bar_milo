@@ -31,10 +31,13 @@ class _MyAppState extends State<MyApp> {
       selectedItemColor: Colors.amber,
       selectedItemIndex: tabIndex,
       selectedItemFontSize: 12,
-      unselectedItemFontSize: 12,      
+      unselectedItemFontSize: 12,     
+      backgroundBorderRadius: BorderRadius.all( Radius.circular(12)), 
+      outsidePadding: EdgeInsets.symmetric(horizontal: 10),
+      floatingButtonBorderColor: Colors.white,
       floatingActionButton: SizedBox(
-           height: 55,
-           width: 55,
+           height: 50,
+           width: 50,
            child: FittedBox(
              child: FloatingActionButton(
                backgroundColor: Colors.black,
