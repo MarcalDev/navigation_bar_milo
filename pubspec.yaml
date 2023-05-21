@@ -1,7 +1,8 @@
 name: navigation_bar_milo
-description: A new Flutter package project.
+description: A new Flutter package with a customized BottomAppBar
 version: 0.0.1
-homepage:
+author: João Marçal
+homepage: https://github.com/MarcalDev/navigation_bar_milo
 
 environment:
   sdk: '>=3.0.1 <4.0.0'
